@@ -18,7 +18,7 @@ the setup; they are source fixtures for the auditor.
 ## Supabase fixture
 
 Run `supabase_setup.sql` once in a new project named `llm-cache-audit`. It creates
-`public.llm_call_logs` with the requested six columns and inserts 96 records
+`public.llm_call_logs` with the requested six columns and inserts 105 records
 spread across the previous seven days:
 
 - 42 `faq_bot` calls sharing one exact input.
