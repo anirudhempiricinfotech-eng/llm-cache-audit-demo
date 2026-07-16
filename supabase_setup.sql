@@ -89,7 +89,7 @@ select
         - ((i * 67) % 1190) * interval '1 minute'
 from fake_profiles;
 
--- Expected distribution: 96 rows total; 1 / 5 / 28 distinct inputs.
+-- Expected distribution: 105 rows total; 1 / 5 / 28 distinct inputs.
 select
   prompt_name,
   count(*) as call_count,
