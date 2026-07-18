@@ -36,4 +36,3 @@ export async function generateProductDescription(category) {
 
   return response.json();
 }
-

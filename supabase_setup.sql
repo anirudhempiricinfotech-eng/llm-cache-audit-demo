@@ -149,4 +149,3 @@ from public.llm_call_logs
 where created_at >= now() - interval '7 days'
 group by prompt_name
 order by prompt_name;
-

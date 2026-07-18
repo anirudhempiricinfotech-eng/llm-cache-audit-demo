@@ -8,4 +8,3 @@
     "check": "node --check faq_bot.js && node --check product_description_generator.js && node --check personalized_recommendation.js"
   }
 }
-

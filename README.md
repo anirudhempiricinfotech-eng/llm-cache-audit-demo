@@ -33,4 +33,3 @@ the preceding seven days:
 Every record uses `gpt-4.1-mini`, provider `OpenAI`, 200–600 input tokens, and
 100–400 output tokens. The final SQL query verifies counts, repeat patterns,
 token ranges, models/providers, and timestamp coverage.
-

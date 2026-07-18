@@ -32,4 +32,3 @@ export async function generatePersonalizedRecommendation(profile) {
 
   return response.json();
 }
-

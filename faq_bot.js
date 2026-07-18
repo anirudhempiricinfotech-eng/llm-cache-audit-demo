@@ -29,4 +29,3 @@ export async function runFaqBot() {
 
   return response.json();
 }
-
